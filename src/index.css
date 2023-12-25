@@ -14,6 +14,36 @@ body {
   min-width: 320px;
 }
 
+#header {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+@media screen and (max-width: 360px) {
+  #header {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+#header img {
+  width: 5rem;
+  height: 5rem;
+  object-fit: contain;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 360px) {
+  #header img {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+
+#header h1 {
+  font-size: 1.1rem;
+}
+
 #user-input {
   display: flex;
   flex-direction: column;
